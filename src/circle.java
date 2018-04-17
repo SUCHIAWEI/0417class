@@ -13,12 +13,17 @@ public class circle extends shape{
 
 
     public void area(){
-        System.out.println("半徑r="+r);
+
         System.out.println("area="+r*r*pi);
     }
 
     public void perimeter(){
         System.out.println("perimeter="+Math.round(r*2*pi*100)/100f);
+    }
+
+
+    public void show(){
+        System.out.println("半徑r="+r);
     }
 
 
